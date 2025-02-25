@@ -1,0 +1,36 @@
+{
+  "name": "locize-http-backend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --clearScreen false",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint \"src/**/*.ts\"",
+    "downloadLocales": "locize download --project-id=f7dbd3ba-2df7-4730-a737-c3b255177160 --ver=latest --clean=true --path=./public/locales",
+    "syncLocales": "locize sync --project-id=f7dbd3ba-2df7-4730-a737-c3b255177160 --ver=latest --api-key=3021e136-f41c-408d-abbd-915231ee7af7 --path=./public/locales"
+  },
+  "dependencies": {
+    "@repo/ui": "workspace:*",
+    "i18next": "^24.2.2",
+    "i18next-browser-languagedetector": "^8.0.3",
+    "i18next-http-backend": "^3.0.2",
+    "locize": "^3.3.0",
+    "locize-lastused": "^4.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.4.1"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.57.0",
+    "locize-cli": "^8.5.1",
+    "typescript": "5.5.4",
+    "vite": "^5.1.4"
+  }
+}
