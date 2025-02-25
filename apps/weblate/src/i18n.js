@@ -2,18 +2,12 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
-import LastUsed from "locize-lastused";
 
 i18n
   // i18next-locize-backend
   // loads translations from your project, saves new keys to it (saveMissing: true)
   // https://github.com/locize/i18next-locize-backend
   .use(Backend)
-  // locize-lastused
-  // sets a timestamp of last access on every translation segment on locize
-  // -> safely remove the ones not being touched for weeks/months
-  // https://github.com/locize/locize-lastused
-  .use(LastUsed)
   // detect user language
   // learn more: https://github.com/i18next/i18next-browser-languageDetector
   .use(LanguageDetector)
