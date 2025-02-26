@@ -32,7 +32,13 @@ const App = () => {
           alt="TypeScript logo"
         />
       </a>
-      <Header title="Locize http-backend" />
+      <Header title="Weblate" />
+      <div className="articles">
+        <div>
+          <h2>Weblate</h2>
+          <p>{t("w-article")}</p>
+        </div>
+      </div>
       <div className="articles">
         <div>
           <h2>ReactJS</h2>
