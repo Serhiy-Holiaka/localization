@@ -131,6 +131,52 @@ importers:
         specifier: ^5.1.4
         version: 5.4.14
 
+  apps/lokalise:
+    dependencies:
+      '@repo/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      i18next:
+        specifier: ^24.2.2
+        version: 24.2.2(typescript@5.5.4)
+      i18next-browser-languagedetector:
+        specifier: ^8.0.3
+        version: 8.0.4
+      react:
+        specifier: ^18.2.0
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.3.1(react@18.3.1)
+      react-i18next:
+        specifier: ^15.4.1
+        version: 15.4.1(i18next@24.2.2)(react-dom@18.3.1)(react@18.3.1)
+    devDependencies:
+      '@repo/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@types/react':
+        specifier: ^19.0.1
+        version: 19.0.10
+      '@types/react-dom':
+        specifier: ^19.0.2
+        version: 19.0.4(@types/react@19.0.10)
+      '@vitejs/plugin-react':
+        specifier: ^3.1.0
+        version: 3.1.0(vite@5.4.14)
+      eslint:
+        specifier: ^8.57.0
+        version: 8.57.1
+      typescript:
+        specifier: 5.5.4
+        version: 5.5.4
+      vite:
+        specifier: ^5.1.4
+        version: 5.4.14
+
   apps/weblate:
     dependencies:
       '@repo/ui':

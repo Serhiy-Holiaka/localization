@@ -32,49 +32,7 @@ const App = () => {
           alt="TypeScript logo"
         />
       </a>
-      <Header title="Weblate" />
-      <div className="blogs">
-        <div>
-          <h2>Weblate</h2>
-          <Trans i18nKey={"w-article"}>
-            <p>
-              In Weblate translations are organized into projects and
-              components. Each project can contain number of components and
-              those contain translations into individual languages. The
-              component corresponds to one translatable file (for example
-              <a href="../formats/gettext.html#gettext">
-                <span>GNU gettext PO (Portable Object)</span>
-              </a>{" "}
-              or{" "}
-              <a href="../formats/android.html#aresource">
-                <span>Android string resources</span>
-              </a>
-              ). The projects are there to help you organize component into
-              logical sets (for example to group all translations used within
-              one application).
-            </p>
-            <p>
-              Additionally, components within projects can be structured using
-              categories. Components can belong to a category, and categories
-              can be nested.
-            </p>
-            <p>
-              Internally, each project has translations to common strings
-              propagated across other components within it by default. This
-              lightens the burden of repetitive and multi version translation.
-              The translation propagation can be disabled per
-              <a href="../admin/projects.html#component">
-                <span>Component configuration</span>
-              </a>{" "}
-              using{" "}
-              <a href="../admin/projects.html#component-allow-translation-propagation">
-                <span>Allow translation propagation</span>
-              </a>{" "}
-              in case the translations should diverge.
-            </p>
-          </Trans>
-        </div>
-      </div>
+      <Header title="Lokalise" />
       <div className="articles">
         <div>
           <h2>ReactJS</h2>
