@@ -33,6 +33,41 @@ const App = () => {
         />
       </a>
       <Header title="Lokalise" />
+      <div className="blogs">
+        <div>
+          <Trans i18nKey={"lokalise-article"}>
+            <h2>What is Localization?</h2>
+            <p>
+              Localization is the process of adapting content, applications, or
+              websites for different languages and cultures.
+            </p>
+            <p>
+              It includes translation, date and time formatting, currency
+              conversion, and adapting visuals to suit regional preferences.
+            </p>
+            <p>
+              Localization improves user experience and helps businesses reach a
+              global audience.
+            </p>
+            <p>
+              Popular tools for localization include Weblate, POEditor, and
+              Transifex.
+            </p>
+            <p>
+              Localization is essential for software, games, and websites to
+              provide a seamless experience for users worldwide.
+            </p>
+            <p>
+              <a
+                href="https://en.wikipedia.org/wiki/Language_localisation"
+                target="_blank"
+              >
+                Learn more about Localization
+              </a>
+            </p>
+          </Trans>
+        </div>
+      </div>
       <div className="articles">
         <div>
           <h2>ReactJS</h2>
