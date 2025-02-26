@@ -33,7 +33,7 @@ const App = () => {
         />
       </a>
       <Header title="Weblate" />
-      <div className="articles">
+      <div className="blogs">
         <div>
           <h2>Weblate</h2>
           <p>{t("w-article")}</p>
