@@ -7,6 +7,8 @@ import { Suspense } from "react";
 
 import "./i18n";
 
+//TODO: Add a new key to the translation file
+
 const lngs = {
   en: { nativeName: "English" },
   uk: { nativeName: "Ukrainian" },
