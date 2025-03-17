@@ -7,12 +7,14 @@
     "dev": "vite --clearScreen false",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint \"src/**/*.ts\""
+    "lint": "eslint \"src/**/*.ts\"",
+    "downloadLocales": "lokalise2 file download --token 5b930f17383f55e193f565756e7da4878a569474 --project-id 4287982067befd383ef764.84219779 --add-newline-eof --json-unescaped-slashes --directory-prefix public/locales/%LANG_ISO% --format json --dest ./"
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.3",
+    "i18next-http-backend": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^15.4.1"

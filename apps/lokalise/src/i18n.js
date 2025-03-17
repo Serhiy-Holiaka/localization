@@ -18,15 +18,7 @@ i18n
   .init({
     fallbackLng: "en",
     debug: true,
-    saveMissing: true,
-    // keySeparator: false,
-
-    interpolation: {
-      escapeValue: false, // not needed for react as it escapes by default
-    },
-    react: {
-      bindI18n: "languageChanged editorSaved",
-    },
+    returnEmptyString: false,
   });
 
 export default i18n;

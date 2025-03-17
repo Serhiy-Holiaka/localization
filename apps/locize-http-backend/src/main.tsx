@@ -33,6 +33,61 @@ const App = () => {
         />
       </a>
       <Header title="Locize http-backend" />
+      {/* <Trans i18nKey={"new-key"}>
+        <h1>What is Localization?</h1>
+        <ul>
+          <li>
+            Localization is the process of adapting content, applications, or
+            websites for different languages and cultures.
+          </li>
+          <li>
+            It includes translation, date and time formatting, currency
+            conversion, and adapting visuals to suit regional preferences.
+            <div>
+              Localization improves user experience and helps businesses reach a
+              global audience.
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, deserunt voluptatum earum dolorem corrupti neque hic
+                consequatur illum dicta pariatur natus commodi esse beatae
+                explicabo sint distinctio! Fugiat, veritatis vel?
+                <span>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam ullam rem laboriosam assumenda aliquam repellat
+                  temporibus illo fugiat omnis. Repellat nam minima voluptatibus
+                  vero, itaque autem perspiciatis similique cum quaerat.
+                </span>
+              </p>
+            </div>
+          </li>
+        </ul>
+        <p>
+          Localization is the process of adapting content, applications, or
+          websites for different languages and cultures.
+          <span>Localization</span>
+        </p>
+        <p>
+          It includes translation, date and time formatting, currency
+          conversion, and adapting visuals to suit regional preferences.
+        </p>
+        <div>
+          <ul>
+            Nesting test
+            <li>
+              One
+              <div>
+                towp
+                <p>
+                  three
+                  <span>
+                    four<strong>five</strong>
+                  </span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </Trans> */}
       <div className="articles">
         <div>
           <h2>ReactJS</h2>

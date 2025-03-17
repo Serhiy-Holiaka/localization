@@ -4,9 +4,6 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import Backend from "i18next-http-backend";
 
 i18n
-  // i18next-locize-backend
-  // loads translations from your project, saves new keys to it (saveMissing: true)
-  // https://github.com/locize/i18next-locize-backend
   .use(Backend)
   // detect user language
   // learn more: https://github.com/i18next/i18next-browser-languageDetector
